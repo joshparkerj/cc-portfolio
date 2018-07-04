@@ -1,0 +1,25 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+ background-color: black;
+ color: white;
+}
+header {
+ margin: 0px;
+}
+main {
+ height: 80vh;
+ background-image: url(https://www.dropbox.com/s/1rrr4d5jqk87y9s/robots_and_stars.png?raw=1);
+}
+footer img {
+ height: 40px;
+ width: 40px;
+}
+button {
+ color: red;
+ font-weight: bold;
+ display: block;
+ margin: 20vh auto;
+ width: 120px;
+}
