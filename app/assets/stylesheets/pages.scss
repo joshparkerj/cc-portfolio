@@ -23,3 +23,29 @@ button {
  margin: 20vh auto;
  width: 120px;
 }
+.carousel {
+ height: 80vh;
+ width: 25vw;
+ margin: auto;
+ display: block;
+}
+.carousel button {
+ font-size: 12px;
+ line-height: 0;
+ display: block;
+ width: 120px;
+ height: 20px;
+ padding: 5px;
+ cursor: pointer;
+ color: white;
+ border: white 4px;
+ outline: none;
+ background: red;
+ margin: auto;
+}
+.slick-next {
+ right: -25px;
+}
+.slick-prev {
+ left: -25px;
+}
