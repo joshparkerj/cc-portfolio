@@ -8,13 +8,23 @@ body {
 header {
  margin: 0px;
 }
+h1 {
+ text-shadow: 2px 0 2px black, -2px 0 2px black, 0 2px 2px black, 0 -2px 2px black,
+              4px 0 4px black, -4px 0 4px black, 0 4px 4px black, 0 -4px 4px black,
+	      2px 2px 3px black, 2px -2px 3px black, -2px 2px 3px black, -2px -2px 3px black,
+	      4px 4px 5px black, 4px -4px 5px black, -4px 4px 5px black, -4px -4px 5px black;
+}
 main {
- height: 80vh;
+ min-height: 68vh;
  background-image: url(https://www.dropbox.com/s/1rrr4d5jqk87y9s/robots_and_stars.png?raw=1);
 }
 footer img {
  height: 40px;
  width: 40px;
+}
+footer {
+ position: fixed;
+ bottom: 0px;
 }
 button {
  color: red;
@@ -25,22 +35,21 @@ button {
 }
 .carousel {
  height: 80vh;
- width: 25vw;
+ width: 683px;
  margin: auto;
  display: block;
 }
 .carousel button {
- font-size: 12px;
+ font-size: 0;
  line-height: 0;
  display: block;
- width: 120px;
  height: 20px;
  padding: 5px;
  cursor: pointer;
  color: white;
  border: white 4px;
  outline: none;
- background: red;
+ background: rgba(0,0,0,0);
  margin: auto;
 }
 .slick-next {
@@ -48,4 +57,14 @@ button {
 }
 .slick-prev {
  left: -25px;
+}
+.supporting {
+ display: grid; 
+ grid-template-columns: 1fr 1fr 1fr; 
+ grid-template-rows: 1fr 1fr;
+ margin-bottom: 80px;
+}
+.supporting div {
+ background-color: rgba(0,0,0,.95);
+ margin: 20px;
 }
