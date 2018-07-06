@@ -9,6 +9,7 @@ header {
  margin: 0px;
 }
 a {
+ text-align: center;
  margin: 0 20px;
 }
 h1 {
@@ -20,6 +21,11 @@ h1 {
 main {
  min-height: 68vh;
  background-image: url(https://www.dropbox.com/s/1rrr4d5jqk87y9s/robots_and_stars.png?raw=1);
+}
+.redundant {
+ width: 120px;
+ margin: auto;
+ background-color: rgba(0,0,0,.95);
 }
 footer img {
  height: 40px;
