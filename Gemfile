@@ -59,5 +59,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rails_12factor', group: :production
 
-gem 'bundler-audit'
+gem 'bundle-audit'
 gem 'ruby_audit'
